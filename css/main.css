@@ -17,8 +17,13 @@ body {
 	width: 200px;
 }*/
 .colorNav{
-	background-color: #444B51;
+	background-color: transparent;
+    box-shadow: none;
+    /*position: fixed;*/
 }
 .ocultar{
 	display: none;
+}
+h1{
+	margin-top: 20px;	
 }

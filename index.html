@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+  <!DOCTYPE html>
   <html>
   <head>
     <meta charset="UTF-8">
@@ -12,10 +12,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
   <body>
-    <head>
+    <header>
       <nav class="colorNav">
         <div class="navbar-fixed ">
-          <a href="#" class="brand-logo center">Logo</a>
           <ul id="nav-mobile" class="left hide-on-med-and-down ">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Mensajes</a></li>
@@ -23,25 +22,31 @@
           </ul>
         </div>
       </nav>
-    </head>
-      <h1>Bitácora Indie</h1>
-      <div class="div row">
-        <div class="col s12 m4 l3">
-        </div>
-        <div class="col s12 m4 l6" id="cajaSelector">
-            <div class="input-field col s12">
-              <select name="lista" id="selector">
-                <option value="seleccion" disabled selected>Seleccionar Opción</option>
-                  <option value="texto">Post Texto</option>
-                  <option value="cita">Post Cita</option>
-                  <option value="meme">Post Meme</option>
-                  <option value="pastilla">Post Pastilla</option>
-              </select>
-            </div>
+    </header>
+    <div class="container">
+        <div class="row">
+          <div class="col s12 m4 l12">
+             <h1>Bitácora Indie</h1>
           </div>
+        </div>
+        <div class="row">
           <div class="col s12 m4 l3">
           </div>
-      </div>
+          <div class="col s12 m4 l6" id="cajaSelector">
+              <div class="input-field col s12">
+                <select name="lista" id="selector">
+                  <option value="seleccion" disabled selected>Seleccionar Opción</option>
+                    <option value="texto">Post Texto</option>
+                    <option value="cita">Post Cita</option>
+                    <option value="meme">Post Meme</option>
+                    <option value="pastilla">Post Pastilla</option>
+                </select>
+              </div>
+            </div>
+            <div class="col s12 m4 l3">
+            </div>
+        </div>
+    </div>
     <!-- Import jQuery before materialize.js -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
